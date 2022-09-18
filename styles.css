@@ -47,20 +47,27 @@ nav a{
 .tittle{
     margin-left:0%;
     padding-top: 70px;
-
+    font-size: 70px;
 }
 
 .smallquestion{
     color: black;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
+    margin-right: 400px;
+    margin-left: 400px;
 }
 .answer{
+    font-size: 20px;
     margin-left:center;
     margin-right: auto;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 30px;
-    margin-right: 400px;
-    margin-left: 400px;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+
+.smallquestion{
+    margin-top: 50px;
 }
