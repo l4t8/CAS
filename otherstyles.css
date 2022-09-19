@@ -30,6 +30,9 @@ body{
     animation-delay: 0.5s;
 }
 @keyframes back{
+    0%{
+        background-image: url(media/milky.png);
+    }
     20%{
         background-image: url(media/milky.png);
         background-size: cover;
