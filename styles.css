@@ -1,5 +1,6 @@
 *{
-    color: black;
+    display: flexbox;
+
     margin: 0;
     padding: 0;
     text-align: center;
@@ -23,6 +24,16 @@ nav{
    
 }
 
+.top{
+    color: white;
+    background-color: rgba(50,50,50,0.8);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
 ul{
     list-style-type: none;
     display: flex;
@@ -30,6 +41,8 @@ ul{
 }
 
 nav a{
+    
+    color: black;
     text-align: center;
     margin: 0;
     margin-left: 20px;
@@ -38,10 +51,6 @@ nav a{
     text-decoration: none;
     font-family: 'Reem Kufi Ink', sans-serif;
     font-size: 20px;
-}
-
-#prueba{
-    margin-left: 200px;
 }
 
 .tittle{
@@ -72,9 +81,3 @@ nav a{
     margin-top: 50px;
 }
 
-.aa{
-    margin-left: 600px;
-    margin-right: auto;
-    margin-top: 50%;
-    font-size: 50px;
-}

@@ -1,0 +1,73 @@
+#Hometext{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 390px;
+    animation-name:colorchange ;
+    animation-duration: 30s;
+    animation-fill-mode:forwards ;
+    animation-iteration-count: infinite;
+}
+
+#Subhometext{
+    text-align: center;
+    padding-top: 30px;
+}
+
+body{
+    animation-name: back;
+    background-size: cover;
+    background-image: url(media/milky.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation-duration: 30s ;
+    animation-direction:linear ;
+    animation-fill-mode:forwards ;
+    animation-iteration-count: infinite;
+    animation-play-state:running ;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+}
+@keyframes back{
+    0%{
+        background-image: url(media/milky.png);
+    }
+    20%{
+        background-image: url(media/milky.png);
+        background-size: cover;
+    }
+    40%{
+        background-image: url(media/milky2.png);
+    }
+    60%{
+        background-image: url(media/milky3.png);
+    }
+    80%{
+        background-image: url(media/milky4.png);
+    }
+    100%{
+        background-image: url(media/milky5.png);
+    }
+}
+
+@keyframes colorchange {
+    0%{
+        color: black;
+    }
+    20%{
+        color: black;
+    }
+    40%{
+        color: white;
+    }
+    60%{
+        color: white;
+    }
+    80%{
+        color: grey;
+    }
+    100%{
+        color: black;
+    }
+}
