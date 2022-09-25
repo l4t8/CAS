@@ -3,7 +3,7 @@
     color: white;
     text-align: center;
     margin-left: 120px;
-    margin-top: 390px;
+    padding-top: 390px;
     animation-name:colorchange ;
     animation-duration: 10s;
     animation-direction:linear ;
@@ -21,7 +21,6 @@
 body{
     animation-name: back;
     background-color:#395B64 ;
-
     animation-duration: 10s ;
     animation-direction:linear ;
     animation-fill-mode:forwards ;

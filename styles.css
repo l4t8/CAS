@@ -1,6 +1,5 @@
 *{
     display: flexbox;
-
     margin: 0;
     padding: 0;
     text-align: center;
@@ -14,6 +13,9 @@ nav{
     padding-bottom: 12000px;
 }
 
+.container{
+    background-color: #A5C9CA;
+}
 #logo{
     margin-top: 40px;
     margin-left: 20px;
@@ -42,7 +44,7 @@ ul{
 
 nav a{
     
-    color: black;
+    color: #E7F6F2;
     text-align: center;
     margin: 0;
     margin-left: 20px;
@@ -57,24 +59,29 @@ nav a{
     margin-left:0%;
     padding-top: 70px;
     font-size: 70px;
+    padding-left: 300px;
+    text-align: justify;
 }
 
 .smallquestion{
-    color: black;
+    color: #2C3333;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
-    margin-right: 400px;
-    margin-left: 400px;
+    margin-right: 300px;
+    margin-left: 300px;
+    text-align: justify;
 }
 .answer{
     font-size: 20px;
     margin-left:center;
     margin-right: auto;
-    text-align: center;
+    text-align: justify;
     margin-top: 20px;
     margin-bottom: 30px;
     margin-right: 300px;
     margin-left: 300px;
+    color: #395B64;
+    
 }
 
 .smallquestion{
