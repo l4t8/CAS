@@ -53,8 +53,13 @@ nav a{
     text-decoration: none;
     font-family: 'Reem Kufi Ink', sans-serif;
     font-size: 20px;
+    transition: 0.7s;
 }
 
+nav a:hover{
+    color: #A5C9CA;
+    transition: 0.7s;
+}
 .tittle{
     margin-left:0%;
     padding-top: 70px;
@@ -91,4 +96,8 @@ nav a{
 .blackquestion{
     font-size: 20px;
     font-weight: bolder;
+}
+
+@media screen and (max-width:1650px){
+    
 }
