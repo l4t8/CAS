@@ -5,23 +5,24 @@
     margin-left: 120px;
     margin-top: 390px;
     animation-name:colorchange ;
-    animation-duration: 30s;
+    animation-duration: 10s;
+    animation-direction:linear ;
     animation-fill-mode:forwards ;
     animation-iteration-count: infinite;
+    animation-play-state:running ;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
 }
 
 #Subhometext{
     text-align: center;
     padding-top: 30px;
 }
-
 body{
     animation-name: back;
-    background-size: cover;
-    background-image: url(media/milky.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    animation-duration: 30s ;
+    background-color:#395B64 ;
+
+    animation-duration: 10s ;
     animation-direction:linear ;
     animation-fill-mode:forwards ;
     animation-iteration-count: infinite;
@@ -31,43 +32,25 @@ body{
 }
 @keyframes back{
     0%{
-        background-image: url(media/milky.png);
+        background-color:#395B64 ;
     }
-    20%{
-        background-image: url(media/milky.png);
-        background-size: cover;
-    }
-    40%{
-        background-image: url(media/milky2.png);
-    }
-    60%{
-        background-image: url(media/milky3.png);
-    }
-    80%{
-        background-image: url(media/milky4.png);
+    50%{
+        background-color: #A5C9CA;
     }
     100%{
-        background-image: url(media/milky5.png);
+        background-color: #E7F6F2;
     }
 }
 
 @keyframes colorchange {
     0%{
-        color: black;
+        color: #E7F6F2;
     }
-    20%{
-        color: black;
-    }
-    40%{
-        color: white;
-    }
-    60%{
-        color: white;
-    }
-    80%{
-        color: grey;
+    50%{
+        color: #395B64;
+        
     }
     100%{
-        color: black;
+        color: #A5C9CA;
     }
 }
