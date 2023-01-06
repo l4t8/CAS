@@ -11,6 +11,7 @@ nav{
     display: flex;
     position: fixed;
     padding-bottom: 12000px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .container{
@@ -67,6 +68,15 @@ nav a:hover{
     padding-left: 300px;
     text-align: justify;
 }
+
+
+
+#colorbody{
+    background-color: #A5C9CA;
+}
+
+
+
 
 .smallquestion{
     color: #2C3333;
