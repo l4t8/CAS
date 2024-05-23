@@ -1,0 +1,30 @@
+h2{
+  padding: 30px;
+  padding-bottom: 0px;
+  color: #2A3132;
+}
+.pdf-list li {
+    margin: 10px;
+    font-size: 20px;
+}
+.pdf-list a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.normal video{
+  margin: 30px;
+  min-width: 20%;
+  max-width: 100%;
+}
+
+
+@media (max-width: 1400px){
+
+
+    .normal video{
+        margin: 10px;
+        max-width: 90%;
+      }
+
+}

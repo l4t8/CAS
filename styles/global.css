@@ -1,0 +1,24 @@
+
+
+
+.normal ul {
+    list-style-type: none;
+    padding: 0;
+    padding-left: 30px;
+    
+}
+
+.normal  ul li {
+    padding-left: 20px;
+    position: relative;
+    margin: 5px 0;
+}
+
+.normal  ul li::before {
+    content: '•';
+    color: #763626;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}

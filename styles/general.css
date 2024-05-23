@@ -1,0 +1,141 @@
+/*
+background: #90AFC5; 
+}
+	
+.second-color { 
+	background: #336B87; 
+}
+
+.third-color { 
+	background: #2A3132; 
+}
+
+.fourth-color { 
+	background: #763626; 
+}
+*/
+body{
+    font-family: 'Verdana', sans-serif;}
+.normal{
+    background-color: white;
+    margin: 20px;
+    border-radius: 9px;
+}
+div .normal{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+
+
+h1{
+    padding: 30px;
+    padding-bottom: 0px;
+    font-size: 35px;
+    color: #763626;
+}
+h2{
+    padding: 20px;
+    padding-bottom: 0px;
+    color: #2A3132;
+}
+
+h3{
+    padding: 20px;
+    padding-bottom: 10px;
+    color: #763626;
+}
+p{
+    padding: 30px;
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: left;
+
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.box2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.box2 img{
+    max-width: 100%;
+}
+
+img{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.normal img{
+    max-width: 100%;        /* Ensure the box does not exceed the width of its container */
+    overflow: hidden;
+    padding: 20px; 
+    object-fit: contain;
+}
+
+
+.box1 .box2 p{
+    text-align: center;
+}
+
+.imagenunica img{
+    display: flex;
+    width: 500px;
+    margin: 10px;
+}
+
+.box3{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 858px){
+    
+    .box1{
+        flex-direction: column;
+    }
+    .box3{
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+    p{
+        font-size: 13px;
+    }
+    .normal{
+        margin: 10px;
+    }
+}
+/* Texto normal*/
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.row img{
+    max-width: 100%;        /* Ensure the box does not exceed the width of its container */
+    overflow: hidden;
+    padding: 20px; 
+    object-fit: contain;
+}
+
+@media (max-width: 1200px){
+    
+    .row{
+        flex-direction: column;
+    }
+}
+
+#pdfcalistenia22{
+    margin-left: 10%;
+    width: 80%;
+    height: 900px;
+    size: 200px;
+    margin-top: 2%;
+}

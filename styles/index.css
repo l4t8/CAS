@@ -1,0 +1,67 @@
+.intro{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    margin: 5%;
+    border-radius: 15px;
+}
+.intro p{
+    font-size: 30px;
+    margin: 25px 50px;
+}
+
+.intro img{
+    width: 600px;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+.diary{
+background-color: white;
+margin: 20px;
+border-radius: 5px;
+}
+
+p{
+    padding: 9px;
+}
+h2{
+    padding: 9px;
+}
+.answer{
+    margin: 0;
+}
+
+
+@media (max-width: 1600px){
+
+    .intro{
+      flex-direction: column;
+    }
+    .intro img{
+        width: 800px;
+    }
+
+}
+
+@media (max-width: 858px){
+    .intro{
+        margin: 0;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    .intro p{
+        font-size: 18px;
+        margin: 15px 20px;
+    }
+    .intro img{
+        width: 300px;
+        height: auto;
+        border-radius: 3px;
+    }
+
+}

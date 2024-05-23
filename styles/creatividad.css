@@ -1,0 +1,32 @@
+
+
+
+
+#paginasweb{
+    background-color: white;
+    margin: 20px;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+#paginasweb img{
+    border: 2px solid black;
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#red{
+    color: red;
+}
+#blue{
+    color: blue;
+    font-size: 33px;
+}
+
+.normal .box1 .box2 video{
+    width: 100%;
+    left: 2%;
+}
